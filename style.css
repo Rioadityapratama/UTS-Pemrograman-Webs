@@ -71,3 +71,67 @@ header {
   color: #fff;
   cursor: pointer;
 }
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.kerajinan {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+.kerajinan h2 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.kerajinan1 {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+.kerajinan-item {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 0rem;
+  max-width: 300px;
+  margin-right: 20px;
+  padding: 1rem;
+  border-radius: 5px;
+  flex: 1;
+  text-align: center;
+  transition: transform 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.kerajinan-item:hover {
+  transform: scale(1.1);
+}
+.kerajinan-item img {
+  width: 50%;
+  height: auto;
+  border-radius: 5px;
+}
+.kerajinan-item p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+.kerajinan-item button {
+  background-color: coral;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 1rem;
+  width: 100%;
+}
