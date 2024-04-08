@@ -189,3 +189,22 @@ footer {
   text-align: center;
   text-size-adjust: 20%;
 }
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu {
+    margin-top: 1rem;
+  }
+  .menu li {
+    margin: 0.5rem 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .kerajinan-item {
+    max-width: calc(50% - 20px);
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
